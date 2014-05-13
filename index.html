@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>ilmon 0.1</title>
+		<link rel="stylesheet" href="css/app.css"/>
+	<!-- libs -->
+		<script src="lib/angular/angular.min.js"></script>
+		<script src="lib/angular/angular-route.min.js"></script>
+		<script src="lib/jquery/jquery-2.1.1.min.js"></script>
+		<script src="lib/underscore/underscore-min.js"></script>
+		<script src="http://localhost:8080/socket.io/socket.io.js"></script>
+	<!-- controllers -->
+		<script src="controllers/cnt_def.js"></script>
+		<script src="controllers/cnt_chat.js"></script>
+	<!-- directives -->
+		<script src="directives/app_def.js"></script>
+	<!-- services -->
+		<script src="services/srv_def.js"></script>
+		<script src="services/srv_chat.js"></script>
+	<!-- filters -->
+		<script src="filters/flt_def.js"></script>
+	<!-- angular -->
+		<script src="js/app.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/router.js"></script>
+		<script src="js/services.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/filters.js"></script>
+		<script src="js/directives.js"></script>
+	</head>
+	<body data-ng-app="ilmon">
+		<div data-ng-view></div>
+	</body>
+</html>

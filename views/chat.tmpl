@@ -1,0 +1,6 @@
+<a data-ng-href="/def">def</a>
+<input type="text" data-ng-model="msg"/>
+<input type="button" value="send" data-ng-click="send()"/>
+<ul>
+	<li data-ng-repeat="msg in chat">{{ msg.id }}: {{ msg.msg }}</li>
+</ul>
